@@ -49,3 +49,24 @@ print(t[:len(t):2])
 #last 3 element
 
 print(t[-3:])
+
+#middle element
+
+#number of records in tuple
+employees = (
+    (101, "Amit", "IT", 55000),
+    (102, "Neha", "HR", 45000),
+    (103, "Ravi", "Sales", 60000),
+    (104, "Priya", "IT", 70000),
+    (105, "Karan", "Finance", 65000),
+    (106, "Pooja", "HR", 48000)
+)
+print(len(employees))
+
+#print(first employee info)
+
+print(employees[0])
+
+#print(last employee info)
+
+print(employees[len(employees) -1])
