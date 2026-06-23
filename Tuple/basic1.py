@@ -70,3 +70,14 @@ print(employees[0])
 #print(last employee info)
 
 print(employees[len(employees) -1])
+
+for i in employees:
+     print(i[2])
+     
+for i in employees:
+    print(i[3])  
+    
+for i in employees:
+    print(i[0])    
+    
+    
