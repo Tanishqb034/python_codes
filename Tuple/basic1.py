@@ -79,5 +79,48 @@ for i in employees:
     
 for i in employees:
     print(i[0])    
+    '''
+    employee id
+    '''
     
+ 
+for emp in employees:
+    print(emp[0])  
+name=()
     
+for emp in employees:
+    name+=(emp[1],)
+    
+print(name)           
+
+salaries=()
+tx=0                     #total salary per month given to them
+for i in employees:
+    tx+=(emp[3])
+    
+print(tx)  
+
+for emp in employees:
+    if(emp[2]=="IT"):
+        print(emp)    #IT DEPARTMENT EMPLOYEE 
+        
+for emp in employees:
+    if(emp[2]=="HR"):    #HR DEPARTMENT EMPLOYEE
+        print(emp)
+            
+for emp in employees:
+    if(emp[3]>=60000):
+        print(emp[1])           #employee  name salary greater than 60 k   
+        
+c=0        
+for emp in employees:
+    if(emp[3]>=60000):
+        c+=1                 #count of the emp sal >60 k
+        
+print(c)                
+total=0
+for emp in employees:
+     total+=emp[3]
+     
+average=total/len(employees) 
+print(average)                 #average salary 
