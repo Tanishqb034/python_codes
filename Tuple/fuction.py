@@ -138,4 +138,4 @@ print(list(res))
 
 result = map(lambda x: x*x,n)
 print(list(result))
-     
+
