@@ -34,11 +34,7 @@ print(b)
 print(type(a))
 print(type(b))
      
-<class '__main__.Student'>
-<__main__.Student object at 0x7c5276170410>
-<__main__.Student object at 0x7c5276170080>
-<class '__main__.Student'>
-<class '__main__.Student'>
+
 
 class School:
   def __init__(self):
