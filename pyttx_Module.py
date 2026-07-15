@@ -1,4 +1,10 @@
-import pyttsx3
+'''import pyttsx3
 engine=pyttsx3.init()
-engine.say("Mujhe aapke 2 ghante chahiye")
-engine.runAndWait()
+engine.say("HI GOURAV HOW ARE YOU ")
+engine.runAndWait()'''
+def hello():
+    print("Hello")
+
+greet = hello
+print(greet)
+greet()
