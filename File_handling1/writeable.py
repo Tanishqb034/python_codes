@@ -1,3 +1,2 @@
 with open("data.txt","w") as file:
-    print(file.readable())
-    
+    print(file.writable())
