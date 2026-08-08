@@ -22,4 +22,6 @@ def kinderjoy(**hi):
 kinderjoy(hi="Tanishq",he="TANMAY",h="SIMBHA")  
   
 
+numbers = (1, 2, 3)
 
+print(*numbers)
