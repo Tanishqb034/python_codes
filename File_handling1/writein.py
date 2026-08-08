@@ -4,6 +4,7 @@ name=["TANISHQ","MOHIT","KANISK","RAHUL"]
 
 with open("students.csv","a",newline="") as file:
     writer=csv.writer(file)
-    for i,j in list,name:
-        writer.writerow(i,j)
+    for i in list:
+        writer.writerow(i)
+            
             
