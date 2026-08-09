@@ -8,3 +8,9 @@ user_profile = {
 # Using the dict() constructor
 empty_dict = dict()
 setup_dict = dict(brand="Ford", model="Mustang", year=1964)
+# Accessing via square brackets
+print(user_profile["username"])  # Output: coder123
+
+# Safe accessing via .get()
+print(user_profile.get("age"))  # Output: None
+print(user_profile.get("age", 25))  # Output: 25 (fallback default)
