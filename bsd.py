@@ -14,4 +14,4 @@ print(user_profile["username"])  # Output: coder123
 # Safe accessing via .get()
 print(user_profile.get("age"))  # Output: None
 print(user_profile.get("age", 25))  # Output: 25 (fallback default)
-print("\n")
+print("\n code runs")
