@@ -21,7 +21,7 @@ pattern3=r"[a-zA-Z ]+$"
 my="THIS IS A GOOD CHARECTER LIST "
 resultnew=re.findall(pattern3,my)
 print(resultnew)
-patt=r"\d+"
+patt=r"\D+"
 text4="THIS IS MY 10 SOCKS PACK "
 resultpack=re.findall(patt,text4)
 print(resultpack)
