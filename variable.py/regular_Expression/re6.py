@@ -16,3 +16,8 @@ name_pat=r"^[A-Za-z ]+$"
 name="TANISHQ BHARDWAJ"
 result_name=re.findall(name_pat,name)
 print(result_name)
+
+pattern3=r"[a-zA-Z ]+$"
+my="THIS IS A GOOD CHARECTER LIST "
+resultnew=re.findall(pattern3,my)
+print(resultnew)
