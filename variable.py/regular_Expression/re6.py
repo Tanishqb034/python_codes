@@ -33,3 +33,5 @@ pa1=r"\W+"
 te="THIS IS !) BOOKS 12 pen"
 rem=re.findall(pa1,te)
 print(rem)
+pa2=r"\w+"
+te1="THIS IS (!@ BOOKS AND 12 Pen )"
