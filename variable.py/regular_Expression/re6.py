@@ -25,4 +25,7 @@ patt=r"\D+"
 text4="THIS IS MY 10 SOCKS PACK "
 resultpack=re.findall(patt,text4)
 print(resultpack)
-
+text5=r"\d+"
+pat="THIS IS MY PATTERN "
+resu=re.findall(pat,text5)
+print(resu)
