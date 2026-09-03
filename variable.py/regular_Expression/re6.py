@@ -29,3 +29,7 @@ text5=r"\d+"
 pat="THIS IS MY PATTERN "
 resu=re.findall(pat,text5)
 print(resu)
+pa1=r"\W+"
+te="THIS IS !) BOOKS 12 pen"
+rem=re.findall(pa1,te)
+print(rem)
