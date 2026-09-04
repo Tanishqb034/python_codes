@@ -37,3 +37,4 @@ pa2=r"\w+"
 te1="THIS IS (!@ BOOKS AND 12 Pen )"
 rss=re.findall(pa2,te1)
 print(rss)
+print(result)
