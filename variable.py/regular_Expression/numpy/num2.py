@@ -24,3 +24,6 @@ i=np.arange(0,20,2)
 print(i)
 j=np.linspace(0,10,5)
 print(j)
+a=np.array([[1,2,3],[4,5,6]])
+print(a.shape)
+
