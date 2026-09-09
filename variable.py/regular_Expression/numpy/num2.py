@@ -34,3 +34,7 @@ a=np.array([1,2,3],dtype=float)
 print(a)
 x=a.copy()
 print(x)
+b=a.view()   
+print(b)
+b[0]=5
+print(b)
