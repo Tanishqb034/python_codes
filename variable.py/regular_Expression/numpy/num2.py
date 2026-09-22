@@ -38,3 +38,7 @@ b=a.view()
 print(b)
 b[0]=5
 print(b)
+z=np.random.rand(3,4)
+print(z)
+l=np.random.randint(1,100,10)
+print(l)
