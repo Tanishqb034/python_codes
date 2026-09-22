@@ -16,3 +16,6 @@ linspace = np.linspace(0, 1, 5)
 
 identity = np.eye(3)
 print(identity)
+print(sequence)
+print(linspace)
+print(constants)
