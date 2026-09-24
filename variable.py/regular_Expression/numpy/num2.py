@@ -54,3 +54,8 @@ D=np.mean(Q,axis=0)
 print(D)
 W=np.array([[1,2,3],[2,4,8]])
 print(W.T)
+
+a1=np.array([1,2,3])
+b1=np.array([4,5,6])
+c1=np.concatenate((a1,b1))
+print(c1)
