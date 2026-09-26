@@ -9,3 +9,8 @@ num=np.array([80,90,90,99,100])
 print(np.average(num))
 
 print(np.sum(num))
+
+result=np.where(num>75)
+print(result)
+r=num[num>75]
+print(r)
