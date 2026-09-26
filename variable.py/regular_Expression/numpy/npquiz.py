@@ -5,3 +5,5 @@ print(np.max(a))
 
 
 print(np.min(a))
+num=np.array([80,90,90,99,100])
+print(np.average(num))
