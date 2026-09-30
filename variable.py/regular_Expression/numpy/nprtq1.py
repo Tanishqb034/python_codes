@@ -6,3 +6,8 @@ print(np.mean(a))
 print(np.sum(a))
 print(a[a>75])
 print(a[a<75])
+
+salary=np.array([23000,55000,45000,56000,67000,22000])
+print(salary[:5])
+print(salary[-5:])
+print(salary[::])
